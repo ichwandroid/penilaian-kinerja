@@ -24,7 +24,7 @@ if (isset($_POST['id'])) {
        if ($foto_nama != "") {
 
           // Ekstensi yang diperbolehkan untuk diupload boleh diubah sesuai keinginan
-          $ekstensi_izin = array('png','jpg','jepg');
+          $ekstensi_izin = array('png','jpg','jepg','pdf');
           // Memisahkan nama file dengan Ekstensinya
           $pisahkan_ekstensi = explode('.', $foto_nama); 
           $ekstensi = strtolower(end($pisahkan_ekstensi));
