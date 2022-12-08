@@ -24,7 +24,7 @@ if (isset($_POST['id'])) {
        if ($foto_nama != "") {
 
           // Ekstensi yang diperbolehkan untuk diupload boleh diubah sesuai keinginan
-          $ekstensi_izin = array('png','jpg','jepg');
+          $ekstensi_izin = array('pdf');
           // Memisahkan nama file dengan Ekstensinya
           $pisahkan_ekstensi = explode('.', $foto_nama); 
           $ekstensi = strtolower(end($pisahkan_ekstensi));
@@ -33,7 +33,7 @@ if (isset($_POST['id'])) {
           // Membuat angka/huruf acak berdasarkan waktu diupload
           $tanggal = md5(date('Y-m-d h:i:s'));
           // Menyatukan angka/huruf acak dengan nama file aslinya
-          $foto_nama_new = $tanggal.'-'.$id; 
+          $foto_nama_new = md5('ijasah smp -'.$id); 
 
           // Mengecek apakah Ekstensi file sesuai dengan Ekstensi file yg diuplaod
           if(in_array($ekstensi, $ekstensi_izin) === true)  {

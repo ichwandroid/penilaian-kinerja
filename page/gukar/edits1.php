@@ -40,7 +40,7 @@
                   <button class="form-file-button btn btn-success shadow" type="submit">Submit</button>
                 </div>
               </form>
-              <h6 class="mt-4 mb-0">Supported files</h6><small>.jpg .png .jpeg .gif</small>
+              <h6 class="mt-4 mb-0">Supported files</h6><small>.PDF Only</small>
             </div>
           </div>
         </div>
