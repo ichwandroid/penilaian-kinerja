@@ -107,65 +107,71 @@
         <div class="container">
           <div class="row g-3">
             <!-- Single Top Product Card -->
-            <div class="col-6 col-sm-4 col-lg-3">
+            <div class="col-4 col-sm-3 col-lg-2">
               <div class="card single-product-card">
                 <div class="card-body p-3">
-                  <!-- Product Thumbnail -->
+                  <!-- Product Thumbn75l -->
                   <a class="product-thumbnail d-block" style="text-align: center;font-size: 80px;">
                     <?php if ($d['ijasahsd'] == "-") { ?>
                       <i class="bi bi-file-earmark-x-fill text-danger"></i>
                   </a>
-                  <!-- Badge --><span class="badge bg-danger text-truncate" style="max-width: 145px;">Belum Upload Ijasah SD</span>
+                  <span class="badge bg-danger text-truncate" style="max-width: 70px;">Belum Upload Ijasah SD</span>
+                  <a class="product-title d-block text-truncate"></a>
+                  <a class="btn btn-outline-primary btn-sm" href="editsd.php?id=<?php echo $d['id_study']; ?>">Upload</a>
                     <?php } else { ?>
-                      <i class="bi bi-file-earmark-pdf-fill text-dark"></i>
+                  <a href="ijasah/<?php echo $d['ijasah'];?>" style="text-align: center;font-size: 75px;">
+                    <i class="bi bi-file-earmark-pdf-fill text-dark"></i>
                   </a>
-                  <!-- Badge --><span class="badge bg-warning">IJASAH SD</span>
+                  <span class="badge bg-warning">IJASAH SD</span>
+                  <a class="product-title d-block text-truncate"></a>
+                  <a class="btn btn-outline-primary btn-sm" href="editsd.php?id=<?php echo $d['id_study']; ?>">Edit</a>
                     <?php } ?>
-                  <!-- Product Title --><a class="product-title d-block text-truncate"></a>
-                  <!-- Product Price --><a class="btn btn-outline-primary btn-sm" href="editsd.php?id=<?php echo $d['id_study']; ?>"><i class="bi bi-cloud-arrow-up-fill"></i> Upload</a>
-                  <!-- Product Price --><a class="btn btn-outline-success btn-sm" href="ijasah/<?php echo $d['ijasahsd']; ?>"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
             <!-- Single Top Product Card -->
-            <div class="col-6 col-sm-4 col-lg-3">
+            <div class="col-4 col-sm-3 col-lg-2">
               <div class="card single-product-card">
                 <div class="card-body p-3">
                   <!-- Product Thumbnail -->
-                  <a class="product-thumbnail d-block" style="text-align: center;font-size: 80px;">
+                  <a class="product-thumbnail d-block" style="text-align: center;font-size: 75px;">
                     <?php if ($d['ijasahsmp'] == "-") { ?>
                       <i class="bi bi-file-earmark-x-fill text-danger"></i>
                   </a>
-                  <!-- Badge --><span class="badge bg-danger text-truncate" style="max-width: 145px;">Belum Upload Ijasah SMP</span>
+                  <span class="badge bg-danger text-truncate" style="max-width: 70px;">Belum Upload Ijasah SMP</span>
+                  <a class="product-title d-block text-truncate"></a>
+                  <a class="btn btn-outline-primary btn-sm" href="editsmp.php?id=<?php echo $d['id_study']; ?>">Upload</a>
                     <?php } else { ?>
-                      <i class="bi bi-file-earmark-pdf-fill text-dark"></i>
+                  <a href="ijasah/<?php echo $d['ijasah'];?>" style="text-align: center;font-size: 75px;">
+                    <i class="bi bi-file-earmark-pdf-fill text-dark"></i>
                   </a>
-                  <!-- Badge --><span class="badge bg-warning">IJASAH SMP</span>
+                  <span class="badge bg-warning">IJASAH SMP</span>
+                  <a class="product-title d-block text-truncate"></a>
+                  <a class="btn btn-outline-primary btn-sm" href="editsmp.php?id=<?php echo $d['id_study']; ?>">Edit</a>
                     <?php } ?>
-                  <!-- Product Title --><a class="product-title d-block text-truncate"></a>
-                  <!-- Product Price --><a class="btn btn-outline-primary btn-sm" href="editsmp.php?id=<?php echo $d['id_study']; ?>"><i class="bi bi-cloud-arrow-up-fill"></i> Upload</a>
-                  <!-- Product Price --><a class="btn btn-outline-success btn-sm" href="ijasah/<?php echo $d['ijasahsmp']; ?>"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
             <!-- Single Top Product Card -->
-            <div class="col-6 col-sm-4 col-lg-3">
+            <div class="col-4 col-sm-3 col-lg-2">
               <div class="card single-product-card">
                 <div class="card-body p-3">
                   <!-- Product Thumbnail -->
-                  <a class="product-thumbnail d-block" style="text-align: center;font-size: 80px;">
+                  <a class="product-thumbnail d-block" style="text-align: center;font-size: 75px;">
                     <?php if ($d['ijasahsma'] == "-") { ?>
                       <i class="bi bi-file-earmark-x-fill text-danger"></i>
                   </a>
-                  <!-- Badge --><span class="badge bg-danger text-truncate" style="max-width: 145px;">Belum Upload Ijasah SMA</span>
+                  <span class="badge bg-danger text-truncate" style="max-width: 70px;">Belum Upload Ijasah SMA</span>
+                  <a class="product-title d-block text-truncate"></a>
+                  <a class="btn btn-outline-primary btn-sm" href="editsma.php?id=<?php echo $d['id_study']; ?>">Upload</a>
                     <?php } else { ?>
-                      <i class="bi bi-file-earmark-pdf-fill text-dark"></i>
+                  <a href="ijasah/<?php echo $d['ijasah'];?>" style="text-align: center;font-size: 75px;">
+                    <i class="bi bi-file-earmark-pdf-fill text-dark"></i>
                   </a>
-                  <!-- Badge --><span class="badge bg-warning">IJASAH SMA</span>
+                  <span class="badge bg-warning">IJASAH SMA</span>
+                  <a class="product-title d-block text-truncate"></a>
+                  <a class="btn btn-outline-primary btn-sm" href="editsma.php?id=<?php echo $d['id_study']; ?>">Edit</a>
                     <?php } ?>
-                  <!-- Product Title --><a class="product-title d-block text-truncate"></a>
-                  <!-- Product Price --><a class="btn btn-outline-primary btn-sm" href="editsma.php?id=<?php echo $d['id_study']; ?>"><i class="bi bi-cloud-arrow-up-fill"></i> Upload</a>
-                  <!-- Product Price --><a class="btn btn-outline-success btn-sm" href="ijasah/<?php echo $d['ijasahsma']; ?>"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
