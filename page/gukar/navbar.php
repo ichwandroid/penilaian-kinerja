@@ -28,7 +28,7 @@
         <!-- Header Content -->
         <div class="header-content header-style-five position-relative d-flex align-items-center justify-content-between">
           <!-- Logo Wrapper -->
-          <div class="logo-wrapper"><a href="index.php"><img src="../../img/core-img/logo-anaksaleh-alt.png" alt=""></a></div>
+          <div class="logo-wrapper"><large>Hi, <b><?php echo $d['nama']; ?></b></large></div>
           <!-- Navbar Toggler -->
           <div class="navbar--toggler" id="affanNavbarToggler" data-bs-toggle="offcanvas" data-bs-target="#affanOffcanvas" aria-controls="affanOffcanvas"><span class="d-block"></span><span class="d-block"></span><span class="d-block"></span></div>
         </div>
