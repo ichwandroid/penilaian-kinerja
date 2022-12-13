@@ -22,7 +22,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../../img/icons/icon-180x180.png"> -->
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="../../css/bootstrap-icons.css"> -->
     <link rel="stylesheet" href="../../css/tiny-slider.css">
     <link rel="stylesheet" href="../../css/baguetteBox.min.css">
     <link rel="stylesheet" href="../../css/rangeslider.css">

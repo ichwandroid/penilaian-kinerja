@@ -54,34 +54,44 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="card mb-3">
-          <div class="card-body">
-            <h3>Customer Review</h3>
-            <div class="testimonial-slide-three-wrapper">
-              <div class="testimonial-slide3 testimonial-style3">
-                <!-- Single Testimonial Slide -->
-                <div class="single-testimonial-slide">
-                  <div class="text-content"><span class="d-inline-block badge bg-warning mb-2"><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill"></i></span>
-                    <h6 class="mb-2">The code looks clean, and the designs are excellent. I recommend.</h6><span class="d-block">Mrrickez, Themeforest</span>
+      <div class="container">               
+        <div class="testimonial-slide-one-wrapper mb-3">
+          <div class="testimonial-slide testimonial-style1">
+            <!-- Single Testimonial Slide -->
+            <div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="single-testimonial-slide">
+                    <div class="image-wrapper shadow"><img src="https://via.placeholder.com/500x500.png?" alt=""></div>
+                    <div class="text-content">
+                      <p class="mb-2">I strongly recommend this agency to everyone interested in running a business.</p><span class="d-block">- Riyadh</span>
+                    </div><i class="bi bi-chat-quote text-warning"></i>
                   </div>
                 </div>
-                <!-- Single Testimonial Slide -->
-                <div class="single-testimonial-slide">
-                  <div class="text-content"><span class="d-inline-block badge bg-warning mb-2"><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill"></i></span>
-                    <h6 class="mb-2">All complete, <br> great craft.</h6><span class="d-block">Mazatlumm, Themeforest</span>
+              </div>
+            </div>
+            <!-- Single Testimonial Slide -->
+            <div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="single-testimonial-slide">
+                    <div class="image-wrapper shadow"><img src="https://via.placeholder.com/500x500.png?" alt=""></div>
+                    <div class="text-content">
+                      <p class="mb-2">You've saved our business! Thanks guys, keep up the good work! The best on the net!</p><span class="d-block">- Affan</span>
+                    </div><i class="bi bi-chat-quote text-warning"></i>
                   </div>
                 </div>
-                <!-- Single Testimonial Slide -->
-                <div class="single-testimonial-slide">
-                  <div class="text-content"><span class="d-inline-block badge bg-warning mb-2"><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill"></i></span>
-                    <h6 class="mb-2">Awesome template! <br> Excellent support!</h6><span class="d-block">Vguntars, Themeforest</span>
-                  </div>
-                </div>
-                <!-- Single Testimonial Slide -->
-                <div class="single-testimonial-slide">
-                  <div class="text-content"><span class="d-inline-block badge bg-warning mb-2"><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill me-1"></i><i class="bi bi-star-fill"></i></span>
-                    <h6 class="mb-2">Nice modern design, <br> I love the product.</h6><span class="d-block">electroMEZ, Themeforest</span>
+              </div>
+            </div>
+            <!-- Single Testimonial Slide -->
+            <div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="single-testimonial-slide">
+                    <div class="image-wrapper shadow"><img src="https://via.placeholder.com/500x500.png?" alt=""></div>
+                    <div class="text-content">
+                      <p class="mb-2">Absolutely wonderful! I wish I would have thought of it first. I would be lost without agency.</p><span class="d-block">- Designing World</span>
+                    </div><i class="bi bi-chat-quote text-warning"></i>
                   </div>
                 </div>
               </div>
@@ -89,7 +99,16 @@
           </div>
         </div>
       </div>
-      <div class="bg-img bg-overlay py-4" style="background-image: url('img/bg-img/30.jpg')">
+      <div class="container">
+        <div class="card shadow-sm mb-3">
+          <div class="card-body pb-2">
+            <div class="chart-wrapper" style="position: relative;">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-img bg-overlay py-4 mb-3" style="background-image: url('img/bg-img/30.jpg')">
         <div class="container direction-rtl">
           <div class="row align-items-center">
             <div class="col-6">
@@ -107,6 +126,63 @@
               <!-- Single Counter -->
               <div class="single-counter-wrap text-center"><i class="bi bi-handbag mb-1 text-white"></i>
                 <h6 class="mb-0 text-white"><span class="counter is-visible" style="visibility: visible;">1378</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <!-- Single Task Progress -->
+            <div class="single-task-progress">
+              <!-- Progress Info -->
+              <div class="progress-info d-flex align-items-center justify-content-between">
+                <h6 class="mb-1">Project Affan</h6><span class="mt-0 mb-1">70% done</span>
+              </div>
+              <!-- Progress -->
+              <div class="progress" style="height: 4px;">
+                <div class="progress-bar bg-danger" style="width: 70%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="task-member-info d-flex align-items-center justify-content-between">
+                <!-- Who working -->
+                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/9.jpg" alt=""></a></div>
+                <!-- Add New Member -->
+                <div class="addnew-member mt-2"><a class="btn btn-sm btn-danger btn-round" href="#">Add New</a></div>
+              </div>
+            </div>
+            <!-- Single Task Progress -->
+            <div class="single-task-progress">
+              <!-- Progress Info -->
+              <div class="progress-info d-flex align-items-center justify-content-between">
+                <h6 class="mb-1">Project Suha</h6><span class="mt-0 mb-1">93% done</span>
+              </div>
+              <!-- Progress -->
+              <div class="progress" style="height: 4px;">
+                <div class="progress-bar bg-success" style="width: 93%;" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="task-member-info d-flex align-items-center justify-content-between">
+                <!-- Who working -->
+                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/9.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a></div>
+                <!-- Add New Member -->
+                <div class="addnew-member mt-2"><a class="btn btn-sm btn-success btn-round" href="#">Add New</a></div>
+              </div>
+            </div>
+            <!-- Single Task Progress -->
+            <div class="single-task-progress">
+              <!-- Progress Info -->
+              <div class="progress-info d-flex align-items-center justify-content-between">
+                <h6 class="mb-1">Project Saasbox</h6><span class="mt-0 mb-1">89% done</span>
+              </div>
+              <!-- Progress -->
+              <div class="progress" style="height: 4px;">
+                <div class="progress-bar bg-warning" style="width: 89%;" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="task-member-info d-flex align-items-center justify-content-between">
+                <!-- Who working -->
+                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a></div>
+                <!-- Add New Member -->
+                <div class="addnew-member mt-2"><a class="btn btn-sm btn-warning btn-round" href="#">Add New</a></div>
               </div>
             </div>
           </div>

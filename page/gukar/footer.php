@@ -28,13 +28,37 @@
         </div>
       </div>
     </div>
+    <!-- Chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById('myChart');
+
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    </script>
     <!-- All JavaScript Files -->
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <script src="../../js/slideToggle.min.js"></script>
     <script src="../../js/internet-status.js"></script>
     <script src="../../js/tiny-slider.js"></script>
     <script src="../../js/baguetteBox.min.js"></script>
-    <!-- <script src="../../js/countdown.js"></script> -->
+    <script src="../../js/countdown.js"></script>
     <script src="../../js/rangeslider.min.js"></script>
     <script src="../../js/vanilla-dataTables.min.js"></script>
     <script src="../../js/index.js"></script>
