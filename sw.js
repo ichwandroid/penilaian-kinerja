@@ -14,25 +14,51 @@
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = 'precache-v1';
+const PRECACHE = 'precache-v2';
 const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
     '/',
-    'css/bootstrap.min.css',
     'img/core-img/dot-blue.png',
     'img/core-img/dot.png',
     'img/core-img/logo-anaksaleh.png',
     'img/core-img/logo-dark.png',
     'img/core-img/favicon.ico',
-    'js/active.js',
-    'js/dark-rtl.js',
-    'js/bootstrap.bundle.min.js',
+
     'js/pwa.js',
     'index.php',
+
+    'css/bootstrap.min.css',
+    'css/tiny-slider.css',
+    'css/baguetteBox.min.css',
+    'css/rangeslider.css',
+    'css/vanilla-dataTables.min.css',
+    'css/apexcharts.css',
+    'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css',
+    'style.css',
     'manifest.json',
-    'style.css'
+    'css/jquery.signaturepad.css',
+    'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
+    'js/numeric-1.2.6.min.js', 
+    'js/bezier.js',
+    'js/jquery.signaturepad.js', 
+    
+    'https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js',
+    'js/json2.min.js',
+    'https://code.jquery.com/jquery-3.4.1.js',
+    'css/app_style.css',
+
+    'js/slideToggle.min.js',
+    'js/internet-status.js',
+    'js/tiny-slider.js',
+    'js/baguetteBox.min.js',
+    'js/rangeslider.min.js',
+    'js/vanilla-dataTables.min.js',
+    'js/index.js',
+    'js/magic-grid.min.js',
+    'js/dark-rtl.js',
+    'js/active.js'
 ];
 
 // The install handler takes care of precaching the resources we always need.

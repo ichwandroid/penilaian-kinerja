@@ -61,8 +61,17 @@
           <!-- Sidenav Nav -->
           <ul class="sidenav-nav ps-0">
             <li><a href="index.php"><i class="bi bi-house-door"></i>Home</a></li>
-            <li><a href="activity.php"><i class="bi bi-bar-chart-line"></i>Activity</a></li>
-            <li><a href="document.php"><i class="bi bi-folder2-open"></i>Document</a></li>
+            <li><a href="#" class="nav-url"><i class="bi bi-lightning"></i>Performance</i></a>
+              <ul style="display: none;">
+                <li><a href="penilaian-sejawat.php"><i class="bi bi-check-circle"></i>Penilaian Sejawat</a></li>
+                <li><a href="#"><i class="bi bi-check-circle"></i>Penilaian Supervisi</a></li>
+                <li><a href="#"><i class="bi bi-check-circle"></i>Pengembangan Diri</a></li>
+                <li><a href="activity.php"><i class="bi bi-check-circle"></i>Penilaian Kehadiran</a></li>
+                <li><a href="#"><i class="bi bi-check-circle"></i>Tugas Tambahan</a></li>
+                <li><a href="document.php"><i class="bi bi-check-circle"></i>Kualifikasi dan SK</a></li>
+                <li><a href="#"><i class="bi bi-check-circle"></i>Survei</a></li>
+              </ul>
+            </li>
             <li><a href="#" class="nav-url"><i class="bi bi-rocket-takeoff"></i>Application</i></a>
               <ul style="display: none;">
                 <li><a href="qrcode.php"><i class="bi bi-qr-code"></i>QR Code</a></li>
@@ -87,3 +96,5 @@
       </div>
     </div>
     <?php } ?>
+            <!-- <li><a href="activity.php"><i class="bi bi-bar-chart-line"></i>Activity</a></li> -->
+            <!-- <li><a href="document.php"><i class="bi bi-folder2-open"></i>Document</a></li> -->
