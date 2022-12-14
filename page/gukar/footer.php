@@ -58,7 +58,6 @@
     <script src="../../js/internet-status.js"></script>
     <script src="../../js/tiny-slider.js"></script>
     <script src="../../js/baguetteBox.min.js"></script>
-    <script src="../../js/countdown.js"></script>
     <script src="../../js/rangeslider.min.js"></script>
     <script src="../../js/vanilla-dataTables.min.js"></script>
     <script src="../../js/index.js"></script>
