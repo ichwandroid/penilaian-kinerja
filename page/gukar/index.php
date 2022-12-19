@@ -108,7 +108,7 @@
           </div>
         </div>
       </div>
-      <div class="bg-img bg-overlay py-4 mb-3" style="background-image: url('img/bg-img/30.jpg')">
+      <div class="bg-img bg-overlay py-4 mb-3" style="background-image: url('https://via.placeholder.com/500x500.png')">
         <div class="container direction-rtl">
           <div class="row align-items-center">
             <div class="col-6">
@@ -146,7 +146,7 @@
               </div>
               <div class="task-member-info d-flex align-items-center justify-content-between">
                 <!-- Who working -->
-                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/9.jpg" alt=""></a></div>
+                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/8" alt=""></a><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/9.jpg" alt=""></a></div>
                 <!-- Add New Member -->
                 <div class="addnew-member mt-2"><a class="btn btn-sm btn-danger btn-round" href="#">Add New</a></div>
               </div>
@@ -163,7 +163,7 @@
               </div>
               <div class="task-member-info d-flex align-items-center justify-content-between">
                 <!-- Who working -->
-                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/9.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a></div>
+                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/8" alt=""></a><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/9.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/8" alt=""></a></div>
                 <!-- Add New Member -->
                 <div class="addnew-member mt-2"><a class="btn btn-sm btn-success btn-round" href="#">Add New</a></div>
               </div>
@@ -180,7 +180,7 @@
               </div>
               <div class="task-member-info d-flex align-items-center justify-content-between">
                 <!-- Who working -->
-                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="img/bg-img/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="img/bg-img/8.jpg" alt=""></a></div>
+                <div class="who-working mt-2"><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/7.jpg" alt=""></a><a href="#"><img class="shadow-sm" src="https://via.placeholder.com/8" alt=""></a></div>
                 <!-- Add New Member -->
                 <div class="addnew-member mt-2"><a class="btn btn-sm btn-warning btn-round" href="#">Add New</a></div>
               </div>
@@ -191,4 +191,29 @@
       <div class="pb-3"></div>
     </div>
     
+    <!-- Chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById('myChart');
+
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    </script>
+
 <?php include 'footer.php';?>

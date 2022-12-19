@@ -7,9 +7,9 @@
           <h5 class="mt-2 mb-2">Upload Ijasah SD / MIN Anda</h5>
           <form id="form-sd" action="action/act_editsd.php" method="POST" enctype="multipart/form-data">
             <div class="form-file">
-              <input type="hidden" name="id-sd" class="form-control" value="<?php echo $d['id_study']; ?>" >
-              <input name="nama-sd" class="form-control mb-2" placeholder="Nama Sekolah SD" value="<?php echo $d['namasd']; ?>" >
-              <input class="form-control d-none" id="customFile" type="file" name="file-sd">
+              <input type="hidden" name="idsd" class="form-control" value="<?php echo $d['id_study']; ?>" >
+              <input name="namasd" class="form-control mb-2" placeholder="Nama Sekolah SD" value="<?php echo $d['namasd']; ?>" >
+              <input class="form-control d-none" id="customFile" type="file" name="filesd">
               <label class="form-file-label justify-content-center" for="customFile"><span class="form-file-button btn btn-primary shadow w-100">Upload File</span></label>
               <input class="form-file-button btn btn-success shadow" type="submit" name="submit-sd" value="Submit">
             </div>
@@ -60,12 +60,7 @@
               <button class="btn m-1 btn-primary" type="submit" name="submit">
                 <svg class="bi bi-cursor me-2" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"></path>
-                </svg>Send Now</button><!-- 
-              <button class="btn btn-primary w-100 d-flex align-items-center justify-content-center" type="submit" name="submit">Submit
-                <svg class="bi bi-arrow-right-short" width="24" height="24" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
-                </svg>
-              </button> -->
+                </svg>Send Now</button>
             </form>
           </div>
         </div>

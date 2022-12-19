@@ -5,6 +5,14 @@
       $data = mysqli_query($koneksi,"select * from login join user on user.id_user = login.id_login where username='$_SESSION[username]'");
       while($d = mysqli_fetch_array($data)){
 ?>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../../js/numeric-1.2.6.min.js"></script>
+<script src="../../js/bezier.js"></script>
+<script src="../../js/jquery.signaturepad.js"></script>
+<script type='text/javascript' src="https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js"></script>
+<script src="../../js/json2.min.js"></script>
+<link href="../../css/app_style.css" rel="stylesheet">
+<link href="../../css/jquery.signaturepad.css" rel="stylesheet">
 
 	<div class="page-content-wrapper py-3">
       <div class="container">               

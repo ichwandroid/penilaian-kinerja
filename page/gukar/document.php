@@ -6,10 +6,9 @@
       while($d = mysqli_fetch_array($data)){
 ?>
 
-    <?php include 'alert.php';?>    
     <?php include 'modal.php';?>
 
-    <div id="tampilData"></div>    
+    <div class="statusMsg"></div>  
 
     <div class="page-content-wrapper py-3">
       <!-- Pagination -->
@@ -33,11 +32,11 @@
               <div class="card single-product-card">
                 <div class="card-body p-3">
                 <?php if ($d['ijasahsd'] == "-") { ?>
-                  <a class="btn m-1 btn-sm btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalSD"><i class="bi bi-cloud-arrow-up-fill"></i> Upload Ijasah SD</a>
+                  <a class="btn m-1 btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalSD"><i class="bi bi-cloud-arrow-up-fill"></i> Upload Ijasah SD</a>
                 <?php } else { ?>
                   <a class="product-thumbnail d-block" style="text-align: center;font-size: 75px;"><i class="bi bi-file-earmark-pdf-fill text-dark"></i></a>
                   <span class="badge bg-primary">IJASAH SD</span>
-                  <a class="badge bg-warning" type="button" data-bs-toggle="modal" data-bs-target="#modalSD">Edit</a>
+                  <a class="badge bg-warning" data-bs-toggle="modal" data-bs-target="#modalSD">Edit</a>
                   <a class="badge bg-secondary" href="ijasah/<?php echo $d['ijasahsd']?>"><i class="bi bi-eye-fill"></i></a>
                 <?php } ?>
                 </div>
@@ -48,7 +47,7 @@
               <div class="card single-product-card">
                 <div class="card-body p-3">
                 <?php if ($d['ijasahsmp'] == "-") { ?>
-                  <a class="btn m-1 btn-sm btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalSMP"><i class="bi bi-cloud-arrow-up-fill"></i> Upload Ijasah SMP</a>
+                  <a class="btn m-1 btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalSMP"><i class="bi bi-cloud-arrow-up-fill"></i> Upload Ijasah SMP</a>
                 <?php } else { ?>
                   <a class="product-thumbnail d-block" style="text-align: center;font-size: 75px;"><i class="bi bi-file-earmark-pdf-fill text-dark"></i></a>
                   <span class="badge bg-primary">IJASAH SMP</span>
@@ -63,7 +62,7 @@
               <div class="card single-product-card">
                 <div class="card-body p-3">
                 <?php if ($d['ijasahsma'] == "-") { ?>
-                  <a class="btn m-1 btn-sm btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalSMA"><i class="bi bi-cloud-arrow-up-fill"></i> Upload Ijasah SMA</a>
+                  <a class="btn m-1 btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#modalSMA"><i class="bi bi-cloud-arrow-up-fill"></i> Upload Ijasah SMA</a>
                 <?php } else { ?>
                   <a class="product-thumbnail d-block" style="text-align: center;font-size: 75px;"><i class="bi bi-file-earmark-pdf-fill text-dark"></i></a>
                   <span class="badge bg-primary">IJASAH SMA</span>

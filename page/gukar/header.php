@@ -32,17 +32,7 @@
     <link rel="stylesheet" href="../../style.css">
     <!-- Web App Manifest -->
     <link rel="manifest" href="../../manifest.json">
-    <!-- Signature -->
-    <link href="../../css/jquery.signaturepad.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="../../js/numeric-1.2.6.min.js"></script> 
-    <script src="../../js/bezier.js"></script>
-    <script src="../../js/jquery.signaturepad.js"></script> 
-    
-    <script type='text/javascript' src="https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js"></script>
-    <script src="../../js/json2.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <link href="../../css/app_style.css" rel="stylesheet">
   </head>
   <body>
     
